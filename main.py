@@ -1,4 +1,4 @@
-from bnpackage import delima, ynion
+from bnpackage import citron, delima, relente, ynion
 import os
 
 try:
@@ -39,13 +39,13 @@ def main_menu():
                 delima.justine_delima()
                 pass
             case 2:
-                # TODO Citron
+                citron.citron_kathleen()
                 pass
             case 3:
                 # TODO Quiambao
                 pass
             case 4:
-                # TODO Relente
+                relente.relente_patricia()
                 pass
             case 5:
                 ynion.ynion_mabeamae()
