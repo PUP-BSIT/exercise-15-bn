@@ -21,8 +21,12 @@ class Cat:
 
         def pet(self):
             self.energy += 30  # Increase energy after being petted
+
+            if self.energy > 100:
+                 self.energy = 100
+                 
             print(f"{self.name} purrs contentedly after being petted."
-                  " Energy level increased!")
+                  " Energy level increased")
         
         def mood(self):
             print(f"\n{self.name}'s energy level is {self.energy}!")    
