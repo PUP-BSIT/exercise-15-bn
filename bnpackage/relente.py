@@ -12,7 +12,7 @@ class Cat:
             print(f"{self.name} is hungry and wants to eat some {self.food}!")
             
         def play(self):
-            if self.energy >= 40:
+            if self.energy >= 30:
                 print(f"{self.name} is ready to play! Let's chase some yarn!")
                 self.energy -= 20  # Decrease energy after playing
             else:
