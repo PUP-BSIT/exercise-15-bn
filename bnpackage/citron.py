@@ -52,5 +52,3 @@ def citron_kathleen():
                         
     persons = Person(name="Kathleen", age=19, birthday="June 8, 2005")
     persons.menu()
-
-citron_kathleen()
