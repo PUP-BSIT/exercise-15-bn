@@ -71,5 +71,3 @@ def ynion_mabeamae():
     
     dogs = Dog(name=dog_name, breed=dog_breed, hobby=dog_hobby)
     dogs.menu()
-
-ynion_mabeamae()
