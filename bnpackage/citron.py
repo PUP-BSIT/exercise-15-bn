@@ -6,7 +6,7 @@ def citron_kathleen():
             self.birthday = birthday
 
         def greet(self): 
-            message= "Hello, how are you? "
+            message= "Hello, how are you?"
             print(message)
 
         def display_name(self):
