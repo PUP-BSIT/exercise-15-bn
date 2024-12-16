@@ -75,6 +75,5 @@ def relente_patricia():
                             print("Invalid choice. Please try again.")
 
             menu()
-            
-relente_patricia()
 
+relente_patricia()
