@@ -1,4 +1,4 @@
-from bnpackage import delima
+from bnpackage import delima, ynion
 import os
 
 try:
@@ -48,7 +48,7 @@ def main_menu():
                 # TODO Relente
                 pass
             case 5:
-                # TODO Ynion
+                ynion.ynion_mabeamae()
                 pass
             case 6:
                 break
