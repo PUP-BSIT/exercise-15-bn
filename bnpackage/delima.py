@@ -107,33 +107,24 @@ def justine_delima():
                 except ValueError:
                     print("\nYou need to input numbers (1-6).")
 
+                os.system('cls')
                 match choice:
                     case 1: # Song Info
-                        os.system('cls')
                         self.display_full_details()
-                        os.system('cls')
                     case 2: # Add song info
-                        os.system('cls')
                         self.add_song_details()
-                        os.system('cls')
                     case 3: # Clear song info
-                        os.system('cls')
                         self.clear_song_details()
-                        os.system('cls')
                     case 4: # Add to favorites
-                        os.system('cls')
                         self.add_to_favorites()
-                        os.system('cls')
                     case 5: # Remove
-                        os.system('cls')
                         self.remove_from_favorites()
-                        os.system('cls')
                     case 6: # Return to main menu
                         return
                     case _:
                         print("Invalid choice.")
                         input("Please press enter to return.")
-                        os.system('cls')
+                os.system('cls')
 
     current_song = Song(name="", genre="", artist="")
     current_song.menu()
