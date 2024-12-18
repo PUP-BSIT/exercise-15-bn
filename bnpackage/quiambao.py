@@ -21,16 +21,16 @@ def quiambao_mapatricia():
             input("Please press enter to continue")
             
         def display_favorite_birthdate(self) :
-            print(f"{self.name} birthday is on {self.birthday} ")
+            print(f"{self.name}'s birthday is on {self.birthday} ")
             input("Please press enter to continue")
 
         def display_about_pochi(self):
-            print(f"{self.name} loves to sleep")
-            print(f"{self.name} loves to play")
-            print(f"{self.name} loves to eat")
-            print(f"{self.name} is a tri-color cat")
-            print(f"{self.name} have a light gray eyes")
-            print(f"{self.name} is a female cat")
+            print(f"{self.name} loves to sleep\n")
+            print(f"{self.name} loves to play\n")
+            print(f"{self.name} loves to eat\n")
+            print(f"{self.name} is a tri-color cat\n")
+            print(f"{self.name} have a light gray eyes\n")
+            print(f"{self.name} is a female cat\n")
             input("Please press enter to continue")
         
         def menu(self):
@@ -63,4 +63,4 @@ def quiambao_mapatricia():
                 os.system('cls')
                         
     Cat = Cat(name="Pochi", age=6, birthday="November 22, 2024")
-    Cat.menu()
+    Cat.menu() 
