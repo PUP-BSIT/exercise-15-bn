@@ -51,4 +51,4 @@ def citron_kathleen():
                         print("Invalid choice. Please try again.")
                         
     persons = Person(name="Kathleen", age=19, birthday="June 8, 2005")
-    persons.menu()
+    persons.display_menu()
