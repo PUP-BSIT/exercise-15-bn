@@ -89,4 +89,4 @@ def relente_patricia():
                             input("\nPress Enter to return...")
                     os.system('cls')
 
-            menu()
+            display_menu()
