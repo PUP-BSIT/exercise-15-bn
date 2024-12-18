@@ -70,4 +70,4 @@ def ynion_mabeamae():
     dog_hobby = input("Enter the dog's hobby: ") 
     
     dogs = Dog(name=dog_name, breed=dog_breed, hobby=dog_hobby)
-    dogs.menu()
+    dogs.display_menu()
