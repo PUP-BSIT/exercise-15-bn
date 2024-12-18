@@ -40,21 +40,21 @@ class Dog:
             print("[5] Roll Over")
             print("[6] Back to Main Menu")
             print("=========================")
-            choice = input("Enter your choice: ")
+            choice = int(input("Enter your choice: "))
                     
             os.system('cls')
             match choice:
-                case "1":
+                case 1:
                     self.bark()
-                case "2":
+                case 2:
                     self.sit()
-                case "3":
+                case 3:
                     self.fetch()
-                case "4":
+                case 4:
                     self.play_dead()
-                case "5":
+                case 5:
                     self.roll_over()
-                case "6":
+                case 6:
                     print(Fore.GREEN + "Thank you for interacting! Goodbye!")
                     input("\nPress Enter to exit...")
                     return
