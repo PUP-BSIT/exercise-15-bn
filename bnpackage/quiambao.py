@@ -28,8 +28,10 @@ def quiambao_mapatricia():
             print(f"{self.name} loves to sleep")
             print(f"{self.name} loves to play")
             print(f"{self.name} loves to eat")
+            print(f"{self.name} is a tri-color cat")
+            print(f"{self.name} have a light gray eyes")
+            print(f"{self.name} is a female cat")
             input("Please press enter to continue")
-            pass
         
         def menu(self):
            while True:
