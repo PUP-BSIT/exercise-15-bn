@@ -36,14 +36,19 @@ def main_menu():
         clear_screen()
         match choice:
             case 1:
+                print(Fore.CYAN)
                 delima.justine_delima()
             case 2:
+                print(Fore.GREEN)
                 citron.citron_kathleen()
             case 3:
+                print(Fore.MAGENTA)
                 quiambao.quiambao_mapatricia()
             case 4:
+                print(Fore.LIGHTMAGENTA_EX)
                 relente.relente_patricia()
             case 5:
+                print(Fore.LIGHTCYAN_EX)
                 ynion.ynion_mabeamae()
             case 6:
                 break
