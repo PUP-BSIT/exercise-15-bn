@@ -1,3 +1,5 @@
+import os
+
 class Cat:
         def __init__(self, name, breed, food):
             self.name = name
@@ -7,9 +9,11 @@ class Cat:
 
         def greet(self):
             print(f"Meow. Hi! I'm {self.name}, a {self.breed} cat.")
+            input("\nPress Enter to return...")
 
         def feed(self):
             print(f"{self.name} is hungry and wants to eat some {self.food}!")
+            input("\nPress Enter to return...")
             
         def play(self):
             if self.energy >= 30:
@@ -18,6 +22,8 @@ class Cat:
             else:
                 print(f"{self.name} is a bit tired. Maybe some"
                        " petting is in order?")
+                
+            input("\nPress Enter to return...")
 
         def pet(self):
             self.energy += 30  # Increase energy after being petted
@@ -27,6 +33,8 @@ class Cat:
                  
             print(f"{self.name} purrs contentedly after being petted."
                   " Energy level increased")
+            
+            input("\nPress Enter to return...")
         
         def mood(self):
             print(f"\n{self.name}'s energy level is {self.energy}!")    
@@ -37,6 +45,8 @@ class Cat:
             else:
                 print(f"{self.name} is stretching and looking playful."
                       " Perhaps some playtime?")
+                
+            input("\nPress Enter to return...")
 
 def relente_patricia():
             cat_name = input("What's your cat's name? ")
@@ -46,6 +56,7 @@ def relente_patricia():
             obj = Cat(cat_name, cat_breed, cat_food)
 
             def menu():
+                os.system('cls')
                 while True:
                     print(f"\nWhat would you like to do with {cat_name}?")
                     print("1. Greet")
@@ -57,6 +68,7 @@ def relente_patricia():
 
                     choice = int(input("Enter your choice: "))
 
+                    os.system('cls')
                     match choice:
                         case 1:
                             obj.greet()
@@ -70,8 +82,11 @@ def relente_patricia():
                             obj.mood()  
                         case 6:
                             print(f"Bye! See you and {cat_name} again soon.")
+                            input("\nPress Enter to return...")
                             return
                         case _:
                             print("Invalid choice. Please try again.")
+                            input("\nPress Enter to return...")
+                    os.system('cls')
 
             menu()
