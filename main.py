@@ -1,4 +1,4 @@
-from bnpackage import citron, delima, relente, ynion
+from bnpackage import citron, delima, quiambao, relente, ynion
 import os
 
 try:
@@ -37,19 +37,14 @@ def main_menu():
         match choice:
             case 1:
                 delima.justine_delima()
-                pass
             case 2:
                 citron.citron_kathleen()
-                pass
             case 3:
-                # TODO Quiambao
-                pass
+                quiambao.quiambao_mapatricia()
             case 4:
                 relente.relente_patricia()
-                pass
             case 5:
                 ynion.ynion_mabeamae()
-                pass
             case 6:
                 break
             case _:
