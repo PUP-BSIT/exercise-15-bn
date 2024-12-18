@@ -86,7 +86,7 @@ def justine_delima():
             
             input("\nPress enter to return.")
             
-        def menu(self):
+        def display_menu(self):
             choice = 0
             while True:
                 print("\n- The Menu works like a playlist/player.")
@@ -127,4 +127,4 @@ def justine_delima():
                 os.system('cls')
 
     current_song = Song(name="", genre="", artist="")
-    current_song.menu()
+    current_song.display_menu()
