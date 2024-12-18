@@ -33,7 +33,7 @@ def quiambao_mapatricia():
             print(f"{self.name} is a female cat\n")
             input("Please press enter to continue")
         
-        def menu(self):
+        def display_menu(self):
            while True:
                 print("This Menu is All About Pochi")
                 print("[1.] Greetings")
@@ -63,4 +63,4 @@ def quiambao_mapatricia():
                 os.system('cls')
                         
     Cat = Cat(name="Pochi", age=6, birthday="November 22, 2024")
-    Cat.menu() 
+    Cat.display_menu() 
