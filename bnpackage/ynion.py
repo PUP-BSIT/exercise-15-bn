@@ -27,7 +27,7 @@ class Dog:
         print(f"{self.name} rolls over! What a good dog!")
         input("\nPress Enter to return...")
                 
-    def menu(self):
+    def display_menu(self):
         while True:
             os.system('cls')
             print(Fore.LIGHTCYAN_EX + 
