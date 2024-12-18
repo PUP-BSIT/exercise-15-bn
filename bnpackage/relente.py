@@ -55,7 +55,7 @@ def relente_patricia():
 
             obj = Cat(cat_name, cat_breed, cat_food)
 
-            def menu():
+            def display_menu():
                 os.system('cls')
                 while True:
                     print(f"\nWhat would you like to do with {cat_name}?")
